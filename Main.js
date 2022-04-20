@@ -6,8 +6,8 @@ import HomeClub from './components/HomeClub';
 import Newsletter from './components/Newsletter';
 import Presentation from './components/Presentation';
 import Events from './components/Events';
-import Donut from './components/Donut';
-
+import Donuts from './components/Donuts';
+import HomeMap from './components/HomeMap';
 
 
 function Main() {
@@ -19,8 +19,8 @@ function Main() {
       <Newsletter />
       <Presentation />
       <Events />
-      <Donut />
-      
+      <Donuts />
+      <HomeMap />
     </div>
   );
 }
