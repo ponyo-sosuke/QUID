@@ -14,7 +14,7 @@ import { IoIosMegaphone } from 'react-icons/io';
 export default function Footer() {
 
 
-    return (){
+    return () => {
       <div className="footer-container">
         <section className="footer-columns">
           <article className="footer-columns-model">
@@ -38,8 +38,8 @@ export default function Footer() {
                 <ul className="footer-li">
                     <li>Histoire</li>
                     <li>Horaires et visites</li>
-                    <li>Conditions d'admission</li>
-                    <li>Formulaire d'inscription</li>
+                    <li>Conditions d admission</li>
+                    <li>Formulaire d inscription</li>
                 </ul>
             </article>
           </article>
@@ -84,5 +84,6 @@ export default function Footer() {
         </section>
         
       </div>
-    );
-  }
+    
+ }
+}
